@@ -1,0 +1,28 @@
+.pcr-app[data-theme='classic'] .pcr-selection .pcr-color-preview {
+    display: none !important;
+}
+
+.pcr-app {
+    visibility: visible !important;
+    opacity: 1 !important;
+    box-shadow: 0 0 0 !important;
+}
+
+.pcr-color-opacity {
+    display: none !important;
+}
+.pcr-color-chooser {
+    top: 80px;
+    left: -140px;
+    transform: rotate(90deg);
+}
+
+.pcr-app[data-theme='classic'] .pcr-selection .pcr-color-chooser .pcr-slider {
+    height: 200px;
+}
+
+
+.pcr-result {
+    max-width: 200px;
+    padding: 15px 5px !important;
+}

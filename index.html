@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@simonwep/pickr/dist/themes/classic.min.css" />
-
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -35,17 +35,26 @@
 
                 // Input / output Options
                 interaction: {
-                    hex: true,
+                    hex: false,
                     rgba: false,
                     hsla: false,
                     hsva: false,
-                    cmyk: true,
+                    cmyk: false,
                     input: true,
                     clear: false,
                     save: false
                 }
             }
         });
+
+        window.addEventListener("load", function(){
+            pickr.show()
+        })
+
+        window.addEventListener("click", function(){
+            pickr.show()
+        })
+
     </script>
 
 </body>
