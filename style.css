@@ -11,11 +11,11 @@
 .pcr-color-opacity {
     display: none !important;
 }
-.pcr-color-chooser {
+/* .pcr-color-chooser {
     top: 80px;
     left: -140px;
     transform: rotate(90deg);
-}
+} */
 
 .pcr-app[data-theme='classic'] .pcr-selection .pcr-color-chooser .pcr-slider {
     height: 200px;
